@@ -17,4 +17,4 @@ def receive_data():
             return jsonify({'error': 'Unsupported Media Type, expecting application/json'}), 415
 
 if __name__ == '__main__':
-    app.run(host='192.168.102.112', port=5000) 
+    app.run(host='192.168.1.8', port=5000) 
